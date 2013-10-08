@@ -1,0 +1,38 @@
+
+Rio{
+	nombre : "Rio verde",
+/*	region : ¿Como tratar las regiones? */
+	especies[
+		 { nombre : "Zabaleta"},
+		 { nombre : "Trucha"}	
+	],
+	calificacion[
+		 { id_User : "135533355", /*Como identificar a un Usuario, considerando que mucha información vendrá de fb.¿? */
+		   valor : 3},
+		 { id_User : "345453543",
+		   valor : 5}
+	],
+	record[
+		 { nombre : "Pez más grande",
+		   id_User : "101010"}
+		 { nombre : "Pez más grande tipo Zabaleta",
+		   id_User : "202020"}
+	]
+	lugaresRecomendados[
+		 { nombre : "Caseta paisa",
+		   localizacion : "05°56′00″N 75°01′00″O",
+		   descripcion : "Pa' tomar polita"
+		 },
+		 { nombre : "Buen lugar para pescar",
+		   localizacion : "05°56′00″N 75°02′01″O",
+		   comentario : "Encontré grandes peces aquí!"
+	         }
+	]
+	Estado[
+		 { id_User : "202020",
+		   fecha : "2010-09-24",
+		   estado : "Soleado"
+		 }
+	]
+	
+}
