@@ -1,0 +1,37 @@
+
+use pescaBD
+db.rio.insert({nombre:'Rio verde',ubicacion:'05°56′00 N 75°01′00″O',especies:['Sabaleta','OtroTipoPez'],region:['Antioquia','Sonson','Colombia'],ranking:[{usuario_correo:'pepito@gmail.com',calificacion:5},{usuario_correo:'juanj@gmail.com',calificacion:3}],record:[{nombre:'Pez mas grande extraido',descripcion:'Consiste en obtener el pez con mayor peso',record_by:{id:'103654987',nombre:'Pepito Perez',clubnombre:'Pesca Antioquia'}}]})
+
+
+
+
+
+db.pesca2.insert(
+{
+	nombre:'Rio verde',
+	ubicacion:'05°56′00 N 75°01′00″O',
+	especies:['Sabaleta','OtroTipoPez'],
+	region:['Antioquia','Sonson','Colombia'],
+	ranking:[
+		{
+			usuario_correo:'pepito@gmail.com',
+			calificacion:5
+		},
+		{	usuario_correo:'juanj@gmail.com',
+			calificacion:3
+		}
+		],
+	record:
+	[
+	{
+		nombre:'Pez mas grande extraido',
+		descripcion:'Consiste en obtener el pez con mayor peso',
+		record_by:{
+				id:'103654987',
+				nombre:'Pepito Perez',
+				clubnombre:'Pesca Antioquia'
+			   }
+	}
+	]
+}
+)
